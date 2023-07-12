@@ -37,13 +37,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-struct CupImageView: View {
-    let imageName: String
-    
-    var body: some View {
-        Image(imageName)
-            .resizable()
-            .frame(width: 150, height: 200)
-    }
-}
